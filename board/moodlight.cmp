@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 25 Mar 2012 23:41:02 CEST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Do 11 Jul 2013 18:58:10 CEST
 
 BeginCmp
 TimeStamp = /4E2744B3;
@@ -32,6 +32,20 @@ BeginCmp
 TimeStamp = /4E25F01C;
 Reference = C6;
 ValeurCmp = 4u7;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DED945;
+Reference = C7;
+ValeurCmp = 12pF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DED962;
+Reference = C8;
+ValeurCmp = 12pF;
 IdModule  = SM1206;
 EndCmp
 
@@ -75,6 +89,13 @@ TimeStamp = /4E25E2C9;
 Reference = IC1;
 ValeurCmp = AT90USB16;
 IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DEF62A;
+Reference = P1;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2;
 EndCmp
 
 BeginCmp
@@ -250,6 +271,13 @@ TimeStamp = /4E25F586;
 Reference = U1;
 ValeurCmp = USBCONN;
 IdModule  = CONN_USB2_MiniB_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /51DED328;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
 EndCmp
 
 EndListe
