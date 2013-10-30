@@ -32,7 +32,7 @@ LIBS:valves
 LIBS:Micropendous-32U2-cache
 LIBS:LED_RGB
 LIBS:moodlight-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1221,7 +1221,7 @@ PD1
 Text Label 3700 3100 0    60   ~ 0
 PD0
 Text Label 4800 6300 0    60   ~ 0
-PB6
+PB0
 Text Label 5900 6300 0    60   ~ 0
 PD6
 Text Label 5900 6400 0    60   ~ 0
@@ -1237,17 +1237,17 @@ PD1
 Text Label 5900 6900 0    60   ~ 0
 PD0
 Text Label 4800 6400 0    60   ~ 0
-PB5
+PB1
 Text Label 4800 6500 0    60   ~ 0
-PB4
+PB2
 Text Label 4800 6600 0    60   ~ 0
 PB3
 Text Label 4800 6700 0    60   ~ 0
-PB2
+PB4
 Text Label 4800 6800 0    60   ~ 0
-PB1
+PB5
 Text Label 4800 6900 0    60   ~ 0
-PB0
+PB6
 $Comp
 L CONN_8X2 P1
 U 1 1 51DEF62A
